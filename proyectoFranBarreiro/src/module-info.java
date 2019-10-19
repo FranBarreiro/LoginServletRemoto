@@ -12,4 +12,6 @@ module proyectoFranBarreiro {
 	/*
 	 * Nueva sección de comentarios
 	 * */
+	requires java.security.sasl;
+	exports javax.naming;
 }
